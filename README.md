@@ -33,5 +33,6 @@ To replicate this environment and run the notebooks locally, follow these steps:
 4. Register the environment with Jupyter and launch:
    ```bash
    python -m ipykernel install --user --name=env --display-name="Python (env)"
-   jupyter notebook
    ```
+   
+5. Select "Python (env)" as the kernel when running the notebook in Jupyter
